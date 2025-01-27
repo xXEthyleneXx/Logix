@@ -21,7 +21,6 @@ def main():
         prg.set_message("Starting System")
         sleep(5)
         prg.set_stat(100)
-        sleep(5)
         prg.stop()
         prgT.join()
 
